@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>VegOut | Veggie-Based Recipes</title>
+
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="Content/style.css" rel="stylesheet" />
+
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/myjQuery.js"></script>
+</head>
+<body>
+    <div class="centerBlock">
+        <!--Branding Headings-->
+        <img src="images/carrot.png"/>
+        <h1>VegOut</h1>
+        <h3>Need a quick veggie-based recipe for your next meal? <br/>Enter the vegetable you like and find a recipe to match.</h3>
+        
+        <!--Form input box with search buttons-->
+        <input id="veggieInput" type="text" placeholder="Enter Veggie Name" />
+        <p id="buttons"><a id="findButton" href="#" class="btn btn-primary" role="button">Find Recipes</a> <a href="#" class="btn btn-default" role="button" id="viewAllButton">View All</a></p>
+        
+
+        <!--Recipes List Section-->
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div id="RecipesTitleBox" class="panel-heading"><h2>Recipes</h2></div>
+
+            <!-- List group -->
+            <ul class="list-group">
+                <li class="list-group-item">DJ Spinach</li>
+                <li class="list-group-item">Bang! Bang! Broccoli</li>
+                <li class="list-group-item">Kale Queen</li>
+                <li class="list-group-item">Carrots! Oh, Carrots!</li>
+                <li class="list-group-item">Spinach Delight</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+﻿body {
+    text-align:center;
+    background-image:url("../images/veggiesdark.png");
+    background-size:cover;
+
+    
+}
+
+h1 {
+    margin-top:0px;
+    font-family: 'Pacifico', cursive;
+    color:white;
+    font-size:100px;
+    margin-bottom:80px;
+}
+
+h3{
+    color:white;
+    margin-bottom:40px;
+}
+.centerBlock {
+    width:65%;
+    margin:auto;
+    
+
+}
+
+ul {
+    margin-top:50px;
+    font-size:16px;
+}
+
+li {
+    list-style:none;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000000;
+}
+
+#viewAll {
+    width: 100%;
+}
+
+div.panel.panel-default {
+    margin-bottom:70px;
+
+}
+img {
+    margin-top:100px;
+    width:140px;
+    margin-left:50px;
+    
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0,0.3);
+    color:white;
+    border-color:white;
+    margin-bottom:30px;
+}
+
+#findButton {
+    width: 20%;
+    background-color: #48c869;
+    border-color:white;
+}
+#buttons {
+    margin-bottom: 80px;
+}
+#recipesTitleBox {
+    font-size:22px;
+}
